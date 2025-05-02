@@ -10,7 +10,7 @@ on:
 
 env:
     MONGO_URI: 'mongodb+srv://mongodb.dnpw69b.mongodb.net/?'
-    MONGO_USERNAME: ${{ var.MONGO_USERNAME }}
+    MONGO_USERNAME: ${{ vars.MONGO_USERNAME }}
     MONGO_PASSWORD: ${{ secrets.MONGO_PASSWORD }}
 
 jobs:
